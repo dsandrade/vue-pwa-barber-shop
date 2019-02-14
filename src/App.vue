@@ -27,6 +27,10 @@
     max-width: 350px;
   }
 
+  input:focus{
+    outline: none;
+  }
+
   html {
     background: url(https://barbershop.southcentralus.cloudapp.azure.com/static/img/login.png) no-repeat center center fixed;
     -webkit-background-size: cover;
