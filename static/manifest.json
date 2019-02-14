@@ -1,6 +1,6 @@
 {
-  "name": "barber-shop",
-  "short_name": "barber-shop",
+  "name": "Barber Shop",
+  "short_name": "Barber Shop",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
