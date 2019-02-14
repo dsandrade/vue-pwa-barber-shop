@@ -27,8 +27,8 @@
     max-width: 350px;
   }
 
-  input:focus{
-    outline: none;
+  input{
+    outline: none!important;
   }
 
   html {
