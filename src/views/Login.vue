@@ -27,6 +27,7 @@
           type="submit"
           class="button-login-form"
           style="margin-top: 3%;"
+          @click.prevent="$router.push('/home')"
         >LOG IN</button>
       </div>
       <div style="text-align: center; margin-top: 4%; margin-bottom: 4%;">

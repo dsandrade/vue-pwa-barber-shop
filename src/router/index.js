@@ -20,7 +20,7 @@ export default new Router({
     {
       path: '/',
       name: 'container',
-      redirect: '/home',
+      redirect: '/login',
       component: Full,
       children: [
         {
