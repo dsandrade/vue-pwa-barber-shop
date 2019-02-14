@@ -1,34 +1,6 @@
 <template>
-  <div class="hello" style="display: flex; flex-flow: column wrap; align-items: center;">
-    <div>
-      <input
-        type="text"
-        v-model="login"
-        :placeholder="loginPlaceholder"
-        @focus="loginPlaceholder = ''"
-        @blur="loginPlaceholder = 'Digite aqui o seu usuário'"
-        class="input-login-form"
-      >
-      <input
-        type="password"
-        v-model="password"
-        :placeholder="passwordPlaceholder"
-        @focus="passwordPlaceholder = ''"
-        @blur="passwordPlaceholder = 'Digite aqui o seu usuário'"
-        class="input-login-form"
-        style="margin-top: 3%;"
-      >
-      <button
-        type="submit"
-        class="button-login-form"
-        style="margin-top: 3%;"
-      >LOG IN</button>
-    </div>
-    <div style="text-align: center; margin-top: 4%; margin-bottom: 4%;">
-      <span class="span-items">
-        Esqueceu a senha? | <span>Criar nova conta?</span>
-      </span>
-    </div>
+  <div class="home center-flex">
+
   </div>
 </template>
 

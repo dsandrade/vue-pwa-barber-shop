@@ -1,17 +1,6 @@
 <template>
   <div id="app">
-    <div class="content">
-      <!--<header>-->
-      <!--<span>Vue.js PWA</span>-->
-      <!--</header>-->
-      <main>
-        <img
-          class="login-logo"
-          src="https://barbershop.southcentralus.cloudapp.azure.com/static/img/logo.png" alt="BarberShop PWA"
-        >
-        <router-view></router-view>
-      </main>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -22,23 +11,12 @@
 </script>
 
 <style>
-  .login-logo {
-    width: 100%;
-    max-width: 350px;
-  }
-
-  input{
+  input {
     outline: none!important;
   }
 
-  html {
-    background: url(https://barbershop.southcentralus.cloudapp.azure.com/static/img/login.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-    width: 100%;
+  button {
+    outline: none!important;
   }
 
   body {
@@ -56,22 +34,21 @@
     text-align: center;
   }
 
-  header {
-    margin: 0;
-    height: 56px;
-    padding: 0 16px 0 24px;
-    background-color: #35495E;
-    color: #ffffff;
+  h1, h2 {
+    font-weight: normal;
   }
 
-  header span {
-    display: block;
-    position: relative;
-    font-size: 20px;
-    line-height: 1;
-    letter-spacing: .02em;
-    font-weight: 400;
-    box-sizing: border-box;
-    padding-top: 16px;
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  a {
+    color: #35495E;
   }
 </style>
