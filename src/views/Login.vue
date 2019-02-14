@@ -55,7 +55,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="scss">
   .login {
     background: url(https://barbershop.southcentralus.cloudapp.azure.com/static/img/login.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -64,59 +64,59 @@
     -o-background-size: cover;
     width: 100vw;
     height: 100vh;
-  }
 
-  .center-login {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -55%);
-  }
+    .center-login {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -55%);
+    }
 
-  .center-flex {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-  }
+    .center-flex {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
 
-  .login-logo {
-    width: 100%;
-    max-width: 350px;
-  }
+    .login-logo {
+      width: 100%;
+      max-width: 350px;
+    }
 
-  .span-items {
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-  }
+    .span-items {
+      font-size: 18px;
+      color: #fff;
+      cursor: pointer;
+    }
 
-  .span-items span {
-    color: #E57953;
-  }
+    .span-items span {
+      color: #E57953;
+    }
 
-  .input-login-form {
-    padding: 3vw 10vh;
-    text-align: center;
-    border-radius: 100px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid transparent;
-    color: #fff;
-    cursor: text;
-  }
+    .input-login-form {
+      padding: 3vw 10vh;
+      text-align: center;
+      border-radius: 100px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid transparent;
+      color: #fff;
+      cursor: text;
+    }
 
-  .button-login-form {
-    padding: 3vw 17vh;;
-    white-space: nowrap;
-    text-align: center;
-    border-radius: 50px;
-    border: 0px;
-    background-color: #fff;
-    color: #E57953;
-    font-size: 20px;
-    cursor: pointer;
-  }
+    .button-login-form {
+      padding: 3vw 17vh;;
+      white-space: nowrap;
+      text-align: center;
+      border-radius: 50px;
+      border: 0px;
+      background-color: #fff;
+      color: #E57953;
+      font-size: 20px;
+      cursor: pointer;
+    }
 
-  .input-login-form::placeholder {
-    color: #fff;
+    .input-login-form::placeholder {
+      color: #fff;
+    }
   }
 </style>

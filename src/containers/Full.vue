@@ -23,28 +23,46 @@
   }
 </script>
 
-<style>
-  .span-down-div {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 10px;
-  }
+<style lang="scss">
+  .full-container {
+    .span-down-div {
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 10px;
+    }
 
-  .container {
-    padding-bottom: 60px;
-    padding-top: 60px;
-  }
+    .container {
+      padding-bottom: 60px;
+      padding-top: 60px;
+    }
 
-  .center-flex {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: center;
-  }
+    .center-flex {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      text-align: center;
+    }
 
-  .login-logo {
-    width: 100%;
-    max-width: 350px;
+    .login-logo {
+      width: 100%;
+      max-width: 350px;
+    }
+
+    .fix-bottom {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin-bottom: 0px;
+    }
+
+    .fix-top {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      margin-bottom: 0px;
+    }
   }
 
   input {
@@ -88,21 +106,5 @@
     font-weight: 400;
     box-sizing: border-box;
     padding-top: 20px;
-  }
-
-  .fix-bottom {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-  }
-
-  .fix-top {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
   }
 </style>
