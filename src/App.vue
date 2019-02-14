@@ -7,7 +7,7 @@
       <main>
         <img
           class="login-logo"
-          src="http://barbershop.southcentralus.cloudapp.azure.com/static/img/logo.png" alt="BarberShop PWA"
+          src="https://barbershop.southcentralus.cloudapp.azure.com/static/img/logo.png" alt="BarberShop PWA"
         >
         <router-view></router-view>
       </main>
@@ -28,7 +28,7 @@
   }
 
   html {
-    background: url(http://barbershop.southcentralus.cloudapp.azure.com/static/img/login.png) no-repeat center center fixed;
+    background: url(https://barbershop.southcentralus.cloudapp.azure.com/static/img/login.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
